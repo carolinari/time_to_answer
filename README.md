@@ -38,3 +38,52 @@ Levante e rode a aplicação com:
 rails s
 ```
 E, finalmente, acesse ```http://localhost:3000``` no seu navegador.
+
+---
+
+## Telas do Projeto
+
+### Página inicial
+![index](images/index.png)
+
+### Busca por área
+![Busca](images/busca_area.png)
+
+### Busca por termo
+![Busca termo](images/busca_termo.png)
+
+### Login
+![Login](images/login.png)
+
+### Esqueceu a senha
+![Esqueceu a senha](images/esqueceu_senha.png)
+
+### Cadastro de usuário
+![Cadastrar](images/cadastrar.png)
+
+---
+
+## Área do Usuário
+
+### Página inicial do usuário
+![User index](images/user_index.png)
+
+### Perfil do usuário
+![User perfil](images/user_perfil.png)
+
+### Editar perfil
+![User perfil editar](images/user_perfil_editar.png)
+
+### Editar foto do perfil
+![User perfil editar foto](images/user_perfil_editar_foto.png)
+
+### Editar nome do usuário
+![User perfil nome](images/user_perfil_nome.png)
+
+### Página inicial do usuário - Respondendo perguntas
+![User index resposta errada](images/user_index_resposta_errada.png)
+
+![User index resposta certa](images/user_index_resposta_certa.png)
+
+### Perfil do usuário - Respostas
+![User perfil respostas](images/user_perfil_respostas.png)
