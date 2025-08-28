@@ -1,0 +1,25 @@
+var element = document.getElementById('submit_<%= @question_id %>');
+
+element.classList.remove('btn-default');
+element.classList.remove('btn-success');
+element.classList.remove('btn-danger');
+
+if (<%= @correct %>) {
+    element.classList.add('btn-success');
+    $.bootstrapGrowl('Você acertou!', {
+        type: 'success', // (null, 'info', 'error', 'success')
+        offset: {from: 'top', amount: 20}, // 'top', or 'bottom'
+        align: 'right', // ('left', 'right', or 'center')
+        allow_dismiss: true,
+        stackup_spacing: 10 // spacing between consecutively stacked growls.
+        });
+} else {
+    element.classList.add('btn-danger');
+    $.bootstrapGrowl('Você errou!', {
+        type: 'danger', // (null, 'info', 'error', 'success')
+        offset: {from: 'top', amount: 20}, // 'top', or 'bottom'
+        align: 'right', // ('left', 'right', or 'center')
+        allow_dismiss: true,
+        stackup_spacing: 10 // spacing between consecutively stacked growls.
+        });
+}
